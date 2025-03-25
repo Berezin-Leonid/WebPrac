@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.msu.cmc.webprak.WebprakApplicationTests" tests="1" skipped="0" failures="0" errors="0" timestamp="2025-03-24T11:53:44.813Z" hostname="MacBook-Pro-Leonid.local" time="1.223">
+  <properties/>
+  <testcase name="contextLoads()" classname="ru.msu.cmc.webprak.WebprakApplicationTests" time="1.223"/>
+  <system-out><![CDATA[14:53:43.496 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [ru.msu.cmc.webprak.WebprakApplicationTests]: WebprakApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14:53:43.591 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration ru.msu.cmc.webprak.WebprakApplication for test class ru.msu.cmc.webprak.WebprakApplicationTests
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.4.4)
+
+2025-03-24T14:53:43.985+03:00  INFO 40440 --- [webprak] [    Test worker] r.m.cmc.webprak.WebprakApplicationTests  : Starting WebprakApplicationTests using Java 17.0.10 with PID 40440 (started by leonidberezin in /Users/leonidberezin/Desktop/WebPrac)
+2025-03-24T14:53:43.987+03:00  INFO 40440 --- [webprak] [    Test worker] r.m.cmc.webprak.WebprakApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-03-24T14:53:44.802+03:00  INFO 40440 --- [webprak] [    Test worker] r.m.cmc.webprak.WebprakApplicationTests  : Started WebprakApplicationTests in 1.058 seconds (process running for 2.214)
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
