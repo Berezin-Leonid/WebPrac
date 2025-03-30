@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.msu.cmc.webprak.DAO.EmployeeDAOTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-03-30T07:37:32" hostname="MacBook-Pro-Leonid.local" time="0.052">
+  <properties/>
+  <testcase name="testSaveEmployee()" classname="ru.msu.cmc.webprak.DAO.EmployeeDAOTest" time="0.039"/>
+  <testcase name="testDeleteEmployee()" classname="ru.msu.cmc.webprak.DAO.EmployeeDAOTest" time="0.002"/>
+  <testcase name="testGetAllEmployeeByName()" classname="ru.msu.cmc.webprak.DAO.EmployeeDAOTest" time="0.001"/>
+  <testcase name="testGetSingleEmployeeByName()" classname="ru.msu.cmc.webprak.DAO.EmployeeDAOTest" time="0.002"/>
+  <testcase name="testGetByFilter()" classname="ru.msu.cmc.webprak.DAO.EmployeeDAOTest" time="0.001"/>
+  <testcase name="testUpdateEmployee()" classname="ru.msu.cmc.webprak.DAO.EmployeeDAOTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

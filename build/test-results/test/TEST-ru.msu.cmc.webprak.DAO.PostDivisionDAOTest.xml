@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.msu.cmc.webprak.DAO.PostDivisionDAOTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2025-03-30T07:37:33" hostname="MacBook-Pro-Leonid.local" time="0.027">
+  <properties/>
+  <testcase name="testGetAllByDivisionId()" classname="ru.msu.cmc.webprak.DAO.PostDivisionDAOTest" time="0.025"/>
+  <testcase name="testGetAllByPostId()" classname="ru.msu.cmc.webprak.DAO.PostDivisionDAOTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

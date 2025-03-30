@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.msu.cmc.webprak.DAO.DivisionDAOTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-03-30T07:37:31" hostname="MacBook-Pro-Leonid.local" time="1.206">
+  <properties/>
+  <testcase name="testGetSingleDivisionByName()" classname="ru.msu.cmc.webprak.DAO.DivisionDAOTest" time="1.185"/>
+  <testcase name="testUpdateDivision()" classname="ru.msu.cmc.webprak.DAO.DivisionDAOTest" time="0.009"/>
+  <testcase name="testSaveDivision()" classname="ru.msu.cmc.webprak.DAO.DivisionDAOTest" time="0.002"/>
+  <testcase name="testDeleteDivision()" classname="ru.msu.cmc.webprak.DAO.DivisionDAOTest" time="0.002"/>
+  <testcase name="testGetAllDivisionByParentId()" classname="ru.msu.cmc.webprak.DAO.DivisionDAOTest" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

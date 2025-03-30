@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ru.msu.cmc.webprak.DAO.PostDAOTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2025-03-30T07:37:32" hostname="MacBook-Pro-Leonid.local" time="0.04">
+  <properties/>
+  <testcase name="testGetByFilter()" classname="ru.msu.cmc.webprak.DAO.PostDAOTest" time="0.029"/>
+  <testcase name="testGetAllPostByName()" classname="ru.msu.cmc.webprak.DAO.PostDAOTest" time="0.001"/>
+  <testcase name="testSavePost()" classname="ru.msu.cmc.webprak.DAO.PostDAOTest" time="0.001"/>
+  <testcase name="testUpdatePost()" classname="ru.msu.cmc.webprak.DAO.PostDAOTest" time="0.001"/>
+  <testcase name="testGetSinglePostByName()" classname="ru.msu.cmc.webprak.DAO.PostDAOTest" time="0.002"/>
+  <testcase name="testDeletePost()" classname="ru.msu.cmc.webprak.DAO.PostDAOTest" time="0.002"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
