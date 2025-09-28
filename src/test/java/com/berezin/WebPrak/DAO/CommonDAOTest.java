@@ -85,16 +85,30 @@ public class CommonDAOTest {
     }
 
     @Test
-    void lookWrite() {
-        Employee employee = new Employee();
-        employee.setName("Тест Тестов");
-        employee.setBirthDay(LocalDate.of(1990, 1, 1));
-        employeeDAO.save(employee);
+    void saveCollectionTest() {
+        Employee e1 = new Employee();
+        e1.setName("Игорь Подзалупкин");
+        e1.setBirthDay(LocalDate.of(1990, 1, 1));
+
+        Employee e2 = new Employee();
+        e2.setName("Иван Ананович");
+        e2.setBirthDay(LocalDate.of(1991, 1, 1));
+
+        List<Employee> employees = List.of(e1, e2);
+
+        employeeDAO.saveCollection(employees);
+
+        for (Employee e: employees) {
+            assertNotNull(e.getId());
+            Employee fromDb = employeeDAO.getById(e.getId());
+            assertNotNull(fromDb);
+        }
+
+        for (Employee e: employees) {
+            employeeDAO.delete(e);
+        }
+
     }
 
-    @Test
-    void lookDelete() {
-        employeeDAO.deleteById(12);
-    }
 
 }
