@@ -19,31 +19,26 @@
 <div class="indent">
 
     <div class="d-flex justify-content-between align-items-center mb-3">
-        <h4>Список должностей</h4>
+        <h4>Список подразделений</h4>
         <a href="/employee/add" class="btn btn-success">
-            ➕ Добавить должность
+            ➕ Добавить добавить подразделение
         </a>
     </div>
     <table class="table table-bordered table-warning">
         <thead class="thead-dark">
         <tr>
             <th scope="col"> Название </th>
-            <th scope="col"> Обязаности </th>
         </tr>
         </thead>
         <tbody>
-        <tr th:if="${posts.isEmpty()}">
-            <td colspan="6"> В базе пока нет ни одной должности. <a href="/employee/add">Добавить?</a></td>
+        <tr th:if="${divisions.isEmpty()}">
+            <td colspan="6"> В базе пока нет ни одного подразделения. <a href="/employee/add">Добавить?</a></td>
         </tr>
-        <tr th:each="post : ${posts}">
+        <tr th:each="division : ${divisions}">
             <td>
-                    <span th:text="${post.getName()}"> </span>
+                <span th:text="${division.getName()}"> </span>
                 </a>
             </td>
-            <td>
-                <span th:text="${post.getRespons()}"></span>
-            </td>
-
         </tr>
 
         </tbody>
