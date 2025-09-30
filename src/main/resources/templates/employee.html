@@ -24,6 +24,25 @@
         <h4 th:text="${employee.getBirthDay()}"></h4>
     </div>
 </div>
+<h4>Должности сотрудника:</h4>
+<table>
+    <thead>
+    <tr>
+        <th>Подразделение</th>
+        <th>Должность</th>
+        <th>Hire Date</th>
+        <th>Retire Date</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr th:each="epd : ${epds}">
+        <td th:text="${epd.getPostDivision().getDivision().getName()}"></td>
+        <td th:text="${epd.getPostDivision().getPost().getName()}"></td>
+        <td th:text="${epd.getHireDate()}"></td>
+        <td th:text="${epd.getRetireDate()}"></td>
+    </tr>
+    </tbody>
+</table>
 <div class="indent mt-4">
     <form th:action="@{/employee/delete}" method="post">
         <input type="hidden" name="employeeId" th:value="${employee.getId()}"/>
