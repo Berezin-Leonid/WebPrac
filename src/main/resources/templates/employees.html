@@ -14,12 +14,16 @@
     </style>
 </head>
 <body>
-<div th:replace="general :: page-header"> </div>
+<div th:replace="~{general :: page-header}"> </div>
 
 <div class="indent">
 
-    <br>
-
+    <div class="d-flex justify-content-between align-items-center mb-3">
+        <h4>Список сотрудников</h4>
+        <a href="/employee/add" class="btn btn-success">
+            ➕ Добавить сотрудника
+        </a>
+    </div>
     <table class="table table-bordered table-warning">
         <thead class="thead-dark">
         <tr>
@@ -29,7 +33,7 @@
         </thead>
         <tbody>
         <tr th:if="${employees.isEmpty()}">
-            <td colspan="6"> В базе пока нет ни одного человека. <a href="/error">Добавить?</a></td>
+            <td colspan="6"> В базе пока нет ни одного человека. <a href="/employee/add">Добавить?</a></td>
         </tr>
         <tr th:each="employee : ${employees}">
             <td>
@@ -38,7 +42,7 @@
                 </a>
             </td>
             <td>
-                <span th:text="${employee.getBirthDay()}"</span>
+                <span th:text="${employee.getBirthDay()}"></span>
             </td>
 
         </tr>

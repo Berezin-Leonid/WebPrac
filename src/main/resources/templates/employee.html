@@ -24,6 +24,15 @@
         <h4 th:text="${employee.getBirthDay()}"></h4>
     </div>
 </div>
+<div class="indent mt-4">
+    <form th:action="@{/employee/delete}" method="post">
+        <input type="hidden" name="employeeId" th:value="${employee.getId()}"/>
+        <button type="submit" class="btn btn-danger"
+                onclick="return confirm('Вы уверены, что хотите удалить сотрудника?');">
+            🗑 Удалить профиль
+        </button>
+    </form>
+</div>
 
 <div th:replace="general :: site-footer"></div>
 <div th:replace="general :: site-script"></div>
